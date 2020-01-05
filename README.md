@@ -68,3 +68,6 @@ from flask import render_template, request
                 "world", is_map_symbol_show=False
             )
 
+## 条件判断
+*if __name__ == '__main__':
+    app.run(debug=True)
