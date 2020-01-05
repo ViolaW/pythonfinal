@@ -7,6 +7,7 @@
 * 有合适的数据结构嵌套
 * 有项目代码在github中的url 以及pythonanywhere的url 包括readme.md的文档url共有3个链接
 * 点击图标上方的五个键位，可以跳转到相应的图表
+* 在17级师兄提供的数据基础上，与合作的蓝启良同学两个人共同参与每一个部分代码的讨论，协作，并得出最终的结果。
 ## python档描述
 1.安装并导入pandas、pyecharts、cufflinks、plotly等第三方包
 2.运用了flask模板以及jinjia2呈现的web页面，从flask呈现模板
