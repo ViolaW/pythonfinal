@@ -6,3 +6,4 @@ python2019秋季学期期末项目展示
 * 包含基本的templates、static、app.py
 * 有合适的数据结构嵌套
 * 有项目代码在github中的url 以及pythonanywhere的url 共有2个链接
+* 有python 文档与html文档的数据交互
