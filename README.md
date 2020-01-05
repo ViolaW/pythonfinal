@@ -47,14 +47,13 @@ from flask import render_template, request
 
 点击按钮“2010-2017各国贫困率跟贫困人口的关系”，即可跳转到(2010-2017各国贫困率跟贫困人口的关系).
 
-## 数据交互
-截取部分展示
+## 数据交互 截取部分展示
  return render_template('index.html',
                            myechart=tl.render_embed(),
                            text1='''通过贫困率和贫困人口的两张地图对比可得，地图都有类似的点 两张地图颜色分布和变化趋势大致相同，可以得出贫困率跟贫困人口相关。
                             两份数据图的中东地区数据是都偏大的随着年份的增加，变化都不是很大 我们还可以看出随着年份的增加，尽管全球总体贫困率有所下降，尤其是在中国和拉丁美洲的多数地区，但非洲和部分亚洲地区的贫困率仍居高不下。''')
- ## 自定义函数/模块
- def index_bar_every_1_tp():
+ ## 自定义函数/模块 截取部分展示
+ *def index_bar_every_1_tp():
     df = pd.read_csv("./static/data/pinkunrenkou.csv")
     tl = Timeline()
     for i in range(2010, 2018):
