@@ -15,7 +15,7 @@
 5.创建url和函数，用url修饰函数，呈现不同的HTML页面
 6.request对象包含一个名为form的字典属性，可以访问从浏览器提交的HTML表单数据。
 7.通过表单的功能，实现了数据的交互，可以从筛选按钮中选出相应的数据。
-* 部分代码展示
+### 部分代码展示
 *import plotly as py
 import cufflinks as cf
 import pandas as pd
